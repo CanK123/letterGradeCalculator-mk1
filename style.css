@@ -1,0 +1,125 @@
+*{
+    margin: 0px 0px;
+    font-family: Helvetica, Arial;
+}
+
+
+.container{
+    display: flex;
+    height: 100vh;
+    background-color: #1C1C1C;
+    justify-content: center;
+    align-items: center;
+}
+.radioContainer{
+    width:  600px;
+    height: 600px;
+    background-color:  #505050;
+    border-radius: 20px;
+}
+.optionContainer{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.column1{
+    display: inline-flex;
+    flex-direction: column;
+    float: left;
+    width: fit-content;
+    height: 200px;
+}
+#mt1{
+    margin-top: 25px;
+    margin-bottom: 33px;
+}
+#mt2{
+    margin-bottom: 34px;
+}
+#final{
+    margin-bottom: 35px;
+}
+.column2{
+    display: flex;
+    flex-direction: column;
+    float: left;
+    width: fit-content;
+    justify-content: space-evenly;
+    height: 200px;
+}
+.column3{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    float: left;
+    justify-content: space-evenly;
+    height: 200px;
+}
+.column2 label{
+    color: white;
+    font-size: 30px;
+}
+.column4{
+    display: flex;
+    width: fit-content;
+    flex-direction: column;
+    height: 200px;
+    justify-content: space-evenly;
+}
+.column3 input{
+    background-color: #FF9500;
+    border-radius: 5px;
+    width: 60px;
+    height: 30px;
+    font-size: 25px;
+    border: 2px transparent;
+}
+.column3 input::placeholder{
+    color: black;
+    font-size: 15px;
+}
+.column4 input{
+    background-color: #FF9500;
+    border-radius: 5px;
+    width: 60px;
+    height: 30px;
+    font-size: 25px;
+    border: 2px transparent;
+}
+.column4 input::placeholder{
+    color: black;
+    font-size: 15px;
+}
+.column1 input{
+    transform: scale(1.5);
+}
+#Submit{
+    margin-left: 225px;
+    height: 50px;
+    width: 150px;
+    border-radius: 20px;
+    border: 1px black solid;
+    font-size: larger;
+    background-color: #FF9500;
+    margin-top: 25px;
+}
+#Submit:hover{
+    box-shadow: 5px 3px 13px whitesmoke, -5px -3px 13px whitesmoke; 
+    transition: 300ms ease;
+}
+#Submit:active{
+    background-color: #4C5FD5;
+    color: white;
+}
+#Submit:hover{
+    cursor: pointer;
+}
+.column1 input:hover{
+    cursor: pointer;
+}
+.radioContainer p{
+    color: white;
+    font-size: 25px;
+    margin-left: 290px;
+    margin-top: 50px;
+}

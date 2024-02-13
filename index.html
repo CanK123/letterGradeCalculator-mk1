@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Letter Grade Calculater</title>
+</head>
+<body>
+    <div class = "container">
+        <div class="radioContainer">
+            <div class="optionContainer">
+                <div class="column1">
+                    <input type="checkbox" id="mt1" >
+                    <input type="checkbox" id="mt2">
+                    <input type="checkbox" id="final">
+                    <input type="checkbox" id="QH">
+                </div>
+                <div class="column2">
+                    <label for="mt1">1.Midterm</label>
+                    <label for="mt2">2.Midterm</label>
+                    <label for="final">Final</label>
+                    <label for="QH">Quiz and Homeworks</label>
+                </div>
+                <div class="column3">
+                    <input type="text" id="mt1Weight" placeholder="Weight" >
+                    <input type="text" id="mt2Weight" placeholder="Weight">
+                    <input type="text" id="finalWeight" placeholder="Weight">
+                    <input type="text" id="QHWeight" placeholder="Weight">
+                </div>
+                <div class="column4">
+                    <input type="text" id="mt1Grade" placeholder="Grade">
+                    <input type="text" id="mt2Grade" placeholder="Grade">
+                    <input type="text" id="finalGrade" placeholder="Grade">
+                    <input type="text" id="QHGrade" placeholder="Grade">
+                </div>
+            </div>
+            <button id="Submit" onclick="calculate()" >Submit</button>
+            <script src="./script.js"></script>
+            <p id="weightedGrade"></p><br>
+            <p id="letterGrade"></p>
+            
+        </div>
+    </div>
+</body>
+</html>
